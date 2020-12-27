@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+$color:#ff3bad;
+$color1:#5a5a5a;
+
+body
+{
+    background-color: #f3f1f1 !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+//navbar
+.bg-light
+{
+    background-color: white !important;
+}
+.nav-item
+{
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif !important;
+    .nav-link
+    {
+        color: #222222 !important;
+    }
+}
+.nu
+    {
+        color: #ff635b !important;
+    }
+    .navs
+    {
+        color: #5a5a5a;
+        font-size: 10px;
+    }
+.navbar-nav
+{
+    margin: auto;
+    margin-top: 10px !important;
+}
+.navb
+{
+    border: 1px silver solid;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #5a5a5a;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+.containerf
+    {
+        width: 85%;
+        margin: auto;
+    }
+.forget
+{
+    margin-top: 60px;
+    
+    
+    .containerf
+    {
+        background-color: white;
+        padding: 20px 30px;
+        padding-bottom: 10%;
+
+    }
+    .text-center {
+        text-align: center;
+    }
+
+    .g-recaptcha {
+        display: inline-block;
+        transform:scale(0.77);
+        
+        margin-top: 30px;
+    }
+    h1
+    {
+        font-weight: bold;
+        color:$color1;
+    }
+    p
+    {
+        color:$color1;
+        margin-top: 45px;
+        font-size: 14px;
+    }
+    h1:after {
+        background: none repeat scroll 0 0 $color;
+        bottom:-30px;
+        content: "";
+        display: block;
+        height: 2px;
+        position: relative;
+        margin: auto;
+        width: 100px;
+     }
+     .email
+     {
+         margin-top: 60px;
+     }
+     input
+     {
+         border: 1px solid #e3e3e3 !important;
+         outline-color: #e3e3e3 !important;
+         font-family: 'Roboto', sans-serif;
+         color: #5a5a5a !important;
+         border-radius: 4px;
+         height: 50px;
+         width: 100%;
+         padding: 0 10px;
+         font-size: 14px;
+         font-weight: 400 !important;
+     }
+     .mailt
+     {
+         color: #5a5a5a;
+         font-size: 14px;
+         margin-bottom: 7px;
+     }
+     button
+     {
+         background-color: $color;
+         color: white;
+         border: none;
+         padding: 10px 20px;
+         font-weight: 500;
+         margin-top: 30px;
+     }
+     button:hover
+     {
+        background-color: #f8189b;
+     }
+
+
+}
+
+//footer area
+.footer
+{
+   
+    margin-top: 40px;
+    background-color: white;
+    color: $color1;
+    
+    p
+    {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    i
+    {
+        margin-right: 13px;
+        margin-top: 20px;
+        font-size: 23px;
+    }
+    li
+    {
+        list-style: none;
+        padding: 0;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    h2
+    {
+        font-size: 23px;
+    }
+    h3
+    {
+        color: #ff3bad;
+        font-size: 18px;
+    }
+    .f
+    {
+        margin-top: 20px;
+    }
+    h5
+    {
+        margin-top: 10px;
+    }
+    .p1
+    {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    button
+    {
+        background-color: $color;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-weight: 500;
+        
+    }
+    button:hover
+    {
+       background-color: #f8189b;
+    }
+    .msg
+    {
+      
+        background-image: url("../img/msg.png");
+  background-position: center center;
+  background-size: 100% 100%;
+
+    }
+}
+
+
+//copyright area
+.copyright
+{
+    text-align: center;
+    font-size: 13px;
+    color: #5a5a5a;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px) {
+    .containerf
+    {
+        width: 95% !important;
+    }
+    .forget
+    {
+       
+        h1
+        {
+            font-size: 20px !important;
+        }
+        p
+        {
+            font-size: 11px !important;
+        }
+        
+    }
+
+    .footer
+    {
+        text-align: center;
+        .ff
+        {
+            margin-top: -70px;
+        }
+        .msg
+        {
+            background-image: url("../img/msg1.png") !important;
+        background-position: center center;
+        background-size: 100% 100%;
+        }
+    }
+
+    .navbar-brand
+    {
+        display: none;
+
+    }
+    .title
+    {
+        h1
+        {
+            font-size: 24px;
+        }
+    }
+
+    .containerf
+    {
+        padding-left: 20px !important;
+        padding-right: 20px !important;;
+    }
+    .page
+    {
+        margin-top:20px !important;
+        margin-left: 0 !important;
+    }
+    
+
+}
+    
+/* Meida Quries IPad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) 
+{
+    .page
+    {
+        margin-top:0 !important;
+    }
+       
+    
+} 
+
+ /* Media Quries IPad Pro */
+@media only screen 
+ and (min-device-width: 1024px) 
+ and (max-device-width: 1366px) 
+ and (-webkit-min-device-pixel-ratio: 2)
+      {
+         
+        
+      }
+
+
+// privacy page
+@import "_privacy.scss";      

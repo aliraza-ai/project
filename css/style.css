@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+body {
+  background-color: #f3f1f1 !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-light {
+  background-color: white !important;
+}
+
+.nav-item {
+  margin-right: 30px;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.nav-item .nav-link {
+  color: #222222 !important;
+}
+
+.nu {
+  color: #ff635b !important;
+}
+
+.navs {
+  color: #5a5a5a;
+  font-size: 10px;
+}
+
+.navbar-nav {
+  margin: auto;
+  margin-top: 10px !important;
+}
+
+.navb {
+  border: 1px silver solid;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: #5a5a5a;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.containerf {
+  width: 85%;
+  margin: auto;
+}
+
+.forget {
+  margin-top: 60px;
+}
+
+.forget .containerf {
+  background-color: white;
+  padding: 20px 30px;
+  padding-bottom: 10%;
+}
+
+.forget .text-center {
+  text-align: center;
+}
+
+.forget .g-recaptcha {
+  display: inline-block;
+  -webkit-transform: scale(0.77);
+          transform: scale(0.77);
+  margin-top: 30px;
+}
+
+.forget h1 {
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+.forget p {
+  color: #5a5a5a;
+  margin-top: 45px;
+  font-size: 14px;
+}
+
+.forget h1:after {
+  background: none repeat scroll 0 0 #ff3bad;
+  bottom: -30px;
+  content: "";
+  display: block;
+  height: 2px;
+  position: relative;
+  margin: auto;
+  width: 100px;
+}
+
+.forget .email {
+  margin-top: 60px;
+}
+
+.forget input {
+  border: 1px solid #e3e3e3 !important;
+  outline-color: #e3e3e3 !important;
+  font-family: 'Roboto', sans-serif;
+  color: #5a5a5a !important;
+  border-radius: 4px;
+  height: 50px;
+  width: 100%;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+
+.forget .mailt {
+  color: #5a5a5a;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.forget button {
+  background-color: #ff3bad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.forget button:hover {
+  background-color: #f8189b;
+}
+
+.footer {
+  margin-top: 40px;
+  background-color: white;
+  color: #5a5a5a;
+}
+
+.footer p {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.footer i {
+  margin-right: 13px;
+  margin-top: 20px;
+  font-size: 23px;
+}
+
+.footer li {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.footer h2 {
+  font-size: 23px;
+}
+
+.footer h3 {
+  color: #ff3bad;
+  font-size: 18px;
+}
+
+.footer .f {
+  margin-top: 20px;
+}
+
+.footer h5 {
+  margin-top: 10px;
+}
+
+.footer .p1 {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.footer button {
+  background-color: #ff3bad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+.footer button:hover {
+  background-color: #f8189b;
+}
+
+.footer .msg {
+  background-image: url("../img/msg.png");
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 13px;
+  color: #5a5a5a;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+}
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px) {
+  .containerf {
+    width: 95% !important;
+  }
+  .forget h1 {
+    font-size: 20px !important;
+  }
+  .forget p {
+    font-size: 11px !important;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer .ff {
+    margin-top: -70px;
+  }
+  .footer .msg {
+    background-image: url("../img/msg1.png") !important;
+    background-position: center center;
+    background-size: 100% 100%;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  .title h1 {
+    font-size: 24px;
+  }
+  .containerf {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .page {
+    margin-top: 20px !important;
+    margin-left: 0 !important;
+  }
+}
+
+/* Meida Quries IPad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  .page {
+    margin-top: 0 !important;
+  }
+}
+
+/* Media Quries IPad Pro */
+.title {
+  background-color: white;
+  border-top: 1px #f5f2f2 solid;
+  color: tomato;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.title h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navi {
+  color: #5a5a5a;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.navi i {
+  color: #ff635b;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.privacy {
+  margin-top: 30px;
+}
+
+.privacy h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #5a5a5a;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.privacy .containerf {
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 2%;
+}
+
+.privacy .text-center {
+  text-align: center;
+}
+
+.privacy p {
+  color: #5a5a5a;
+  margin-top: 25px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.privacy .page {
+  background-color: #ff635b;
+  color: #ffffff;
+  padding: 20px 0px;
+  margin-top: -37%;
+  margin-left: 20px;
+  padding-bottom: 40px;
+}
+
+.privacy .page h5 {
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.privacy .page p {
+  color: white;
+  padding-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.privacy .page li {
+  list-style: none;
+  margin-top: 15px;
+  padding-left: 20px;
+  font-size: 12px;
+  padding-top: 15px;
+  border-top: 1px #f17f79 solid;
+}
+
+.privacy .page li i {
+  color: white;
+  font-size: 18px;
+}
+
+.privacy .cicon {
+  margin: auto;
+  text-align: center;
+  margin-top: 20%;
+  border: 2px solid #5a5a5a;
+  width: 60px;
+  color: #5a5a5a;
+  font-size: 28px;
+  padding-top: 6px;
+  padding-bottom: 8px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.privacy .accordion-header .accordion-button {
+  font-family: 'Roboto', sans-serif;
+  color: #5a5a5a !important;
+  font-size: 18px !important;
+}
+
+.privacy .accordion-header .accordion-button:focus {
+  z-index: 3;
+  border-color: silver !important;
+  border-bottom: 1px solid  #ff635b !important;
+  outline: 0;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.privacy .accordion-header .accordion-button:not(.collapsed) {
+  color: #ff635b !important;
+  background-color: white !important;
+}
+
+.privacy .accordion-header .accordion-button:not(.collapsed)::after {
+  background-image: url("../img/i.svg");
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+/*# sourceMappingURL=style.css.map */

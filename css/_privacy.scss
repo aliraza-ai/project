@@ -1,0 +1,148 @@
+.title
+{
+    background-color: white;
+    border-top: 1px rgb(245, 242, 242) solid;
+    color: tomato;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    h1
+    {
+        font-family: 'Roboto', sans-serif;
+        
+    }
+}
+.navi
+{
+    color:$color1;
+    font-size: 13px;
+    margin-top: 30px;
+
+    i
+    {
+        color:#ff635b;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
+.privacy
+{
+    margin-top: 30px;
+
+    h1
+    {
+        font-family: 'Roboto', sans-serif;
+        color: $color1;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    
+    .containerf
+    {
+        background-color: white;
+        padding-top: 50px;
+        padding-left: 50px;
+        
+        padding-right: 50px;
+        padding-bottom: 2%;
+       
+
+    }
+    .text-center {
+        text-align: center;
+    }
+
+    p
+    {
+        color:$color1;
+        margin-top: 25px;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+
+    .page
+    {
+        background-color: #ff635b;
+        color: #ffffff;
+        padding: 20px 0px;
+        margin-top: -37%;
+        margin-left: 20px;
+        padding-bottom: 40px;
+       
+        h5
+        {
+            padding: 0;
+            margin: 0;
+            padding-left: 20px;
+        }
+        p
+        {
+            color: white;
+            padding-left: 20px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        li
+        {
+            list-style: none;
+            margin-top: 15px;
+            padding-left: 20px;
+            font-size: 12px;
+            padding-top: 15px;
+            border-top: 1px #f17f79 solid;
+            i
+            {
+                color: white;
+                font-size:18px;
+            }
+        }
+    }
+
+    .cicon
+    {
+        margin: auto;
+        text-align: center;
+        margin-top: 20%;
+        border: 2px solid $color1;
+        width: 60px;
+        color:$color1;
+        font-size: 28px;
+       padding-top: 6px;
+       padding-bottom: 8px;
+        border-radius: 50%;
+        margin-bottom: 40px;
+    }
+
+    .accordion-header
+    {
+        .accordion-button
+        {
+            
+            font-family: 'Roboto', sans-serif;
+            color:$color1 !important;
+            font-size: 18px !important;
+
+        }
+        .accordion-button:focus {
+            z-index: 3;
+            border-color:silver !important;
+            border-bottom: 1px solid  #ff635b !important;
+            outline: 0;
+            box-shadow: none !important;
+        }
+        .accordion-button:not(.collapsed) {
+            color: #ff635b !important;
+            background-color: white !important;
+        }
+
+        .accordion-button:not(.collapsed)::after {
+            background-image: url("../img/i.svg");
+            transform: rotate(180deg);
+        }
+        
+    }
+
+    
+}
