@@ -1,0 +1,96 @@
+.rent-pay
+{
+    .containerf
+    {
+        width: 65%;
+    }
+ 
+    background-color: white;
+    h1
+    {
+        color: #5a5a5a;
+        text-align: center;
+        font-size: 28px;
+        margin-top: 12px;
+        font-weight: bold;
+    }
+    p
+    {
+        text-align: center;
+    }
+    .icon
+    {
+        text-align: center;
+        color: #5ebf17;
+        
+        margin-top: 8% !important;
+        font-size: 40px;
+        border: 4px solid  #5ebf17;
+        width: 100px;
+        padding: 13px 0px;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+
+    button
+    {
+        background-color: $color;
+        color: white;
+        border: none;
+        text-align: center;
+        padding: 10px 20px;
+        font-weight: 500;
+       
+        b
+        {
+            color: white;
+        }
+    }
+    button:hover
+    {
+       background-color: #f8189b;
+    }
+    hr
+    {
+        color: #d6d0d0;
+    }
+    
+       .mdata
+       {
+        border: 2px solid#f7f3f3;
+        margin-bottom: 40px;
+       }
+
+       .r4
+       {
+           padding: 30px;
+           b
+           {
+               font-size: 11px;
+               color: #5a5a5a;
+           }
+       }
+       .t
+       {
+           font-size: 14px;
+           text-align: left;
+       }
+       .r5
+       {
+           font-size: 12px;
+           padding-top: 20px;
+           padding-bottom: 15px;
+       }
+   
+}
+
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px)
+{
+    .containerf
+    {
+        width: 100% !important;
+    }
+}

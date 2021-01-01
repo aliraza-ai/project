@@ -9,9 +9,14 @@ body
 }
 
 //navbar
-.bg-light
+
+.mynav
 {
-    background-color: white !important;
+    background-color: #f8f9fa !important;
+    .containerf
+    {
+        background-color: #f8f9fa !important;;
+    }
 }
 .nav-item
 {
@@ -25,6 +30,16 @@ body
 .nu
     {
         color: #ff635b !important;
+    }
+    .b2
+    {
+        display: none;
+    }
+
+    .nuu
+    {
+        color: #ff635b !important;
+        display: none;
     }
     .navs
     {
@@ -207,7 +222,20 @@ body
 
     }
 }
-
+.headerb
+{
+    background-color: $color;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-weight: 500;
+        border-radius: 10px;
+        font-size: 13px;
+}
+.headerb:hover
+{
+    background-color: #f8189b;
+}
 
 //copyright area
 .copyright
@@ -218,13 +246,39 @@ body
     font-family: 'Roboto', sans-serif;
     margin-top: 20px;
 }
-
+.containere
+{
+    width: 95%;
+}
+.loo2
+    {
+        display: none;
+    }
 
 /* Meida Quries Mobiles */
 @media (max-width: 760px) {
+   
+    .loo1
+    {
+        display: none;
+    }
+    .loo2
+    {
+        display: inline-block;
+    }
+    .nuu
+    {
+        color: #ff635b !important;
+        display: inline;
+    }
+    .nu
+    {
+        color: #ff635b !important;
+        display: none;
+    }
     .containerf
     {
-        width: 95% !important;
+        width: 100% !important;
     }
     .forget
     {
@@ -255,11 +309,7 @@ body
         }
     }
 
-    .navbar-brand
-    {
-        display: none;
-
-    }
+   
     .title
     {
         h1
@@ -305,4 +355,7 @@ body
 
 
 // privacy page
-@import "_privacy.scss";      
+@import "_privacy.scss";    
+@import "_reservation.scss";  
+@import "_rent.scss";  
+@import "_personal-info.scss";  

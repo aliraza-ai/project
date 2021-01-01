@@ -4,8 +4,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.bg-light {
-  background-color: white !important;
+.mynav {
+  background-color: #f8f9fa !important;
+}
+
+.mynav .containerf {
+  background-color: #f8f9fa !important;
 }
 
 .nav-item {
@@ -19,6 +23,15 @@ body {
 
 .nu {
   color: #ff635b !important;
+}
+
+.b2 {
+  display: none;
+}
+
+.nuu {
+  color: #ff635b !important;
+  display: none;
 }
 
 .navs {
@@ -189,6 +202,20 @@ body {
   background-size: 100% 100%;
 }
 
+.headerb {
+  background-color: #ff3bad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.headerb:hover {
+  background-color: #f8189b;
+}
+
 .copyright {
   text-align: center;
   font-size: 13px;
@@ -197,10 +224,32 @@ body {
   margin-top: 20px;
 }
 
+.containere {
+  width: 95%;
+}
+
+.loo2 {
+  display: none;
+}
+
 /* Meida Quries Mobiles */
 @media (max-width: 760px) {
+  .loo1 {
+    display: none;
+  }
+  .loo2 {
+    display: inline-block;
+  }
+  .nuu {
+    color: #ff635b !important;
+    display: inline;
+  }
+  .nu {
+    color: #ff635b !important;
+    display: none;
+  }
   .containerf {
-    width: 95% !important;
+    width: 100% !important;
   }
   .forget h1 {
     font-size: 20px !important;
@@ -218,9 +267,6 @@ body {
     background-image: url("../img/msg1.png") !important;
     background-position: center center;
     background-size: 100% 100%;
-  }
-  .navbar-brand {
-    display: none;
   }
   .title h1 {
     font-size: 24px;
@@ -371,5 +417,231 @@ body {
   background-image: url("../img/i.svg");
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+.r1 {
+  border: 2px solid #e7e5e5;
+  margin-top: -10px !important;
+}
+
+.r1 h2 {
+  font-size: 16px;
+  color: #5a5a5a;
+  text-align: center;
+  font-weight: 700;
+}
+
+.r1 .sst {
+  margin-bottom: 10px;
+}
+
+.r1 .sst b {
+  color: #5a5a5a;
+  font-size: 10px;
+}
+
+.r1 .r2, .r1 b {
+  color: #5a5a5a;
+  font-size: 12px;
+}
+
+.r1 .r3 {
+  color: #5a5a5a;
+  font-size: 14px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.r1 .r3 button {
+  background-color: #ff3bad;
+  color: white;
+  border: none;
+  padding: 7px 20px;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.r1 .r3 button b {
+  color: white;
+}
+
+.r1 .r3 button:hover {
+  background-color: #f8189b;
+}
+
+.r1 .r3 h1 {
+  font-size: 34px;
+  margin-top: 10px;
+}
+
+.r1:hover {
+  border: 2px solid #f8189b;
+}
+
+.car {
+  padding: 40px 0px;
+}
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px) {
+  .car {
+    padding: 20px 0px;
+  }
+  .r1 h2 {
+    font-size: 12px;
+  }
+  .r3 {
+    font-size: 12px !important;
+  }
+  .r3 button {
+    padding: 4px 10px !important;
+    margin-top: 50px;
+  }
+  .r3 button b {
+    font-size: 8px !important;
+  }
+  .r3 h1 {
+    font-size: 20px !important;
+  }
+}
+
+.rent-pay {
+  background-color: white;
+}
+
+.rent-pay .containerf {
+  width: 65%;
+}
+
+.rent-pay h1 {
+  color: #5a5a5a;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.rent-pay p {
+  text-align: center;
+}
+
+.rent-pay .icon {
+  text-align: center;
+  color: #5ebf17;
+  margin-top: 8% !important;
+  font-size: 40px;
+  border: 4px solid  #5ebf17;
+  width: 100px;
+  padding: 13px 0px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.rent-pay button {
+  background-color: #ff3bad;
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+.rent-pay button b {
+  color: white;
+}
+
+.rent-pay button:hover {
+  background-color: #f8189b;
+}
+
+.rent-pay hr {
+  color: #d6d0d0;
+}
+
+.rent-pay .mdata {
+  border: 2px solid #f7f3f3;
+  margin-bottom: 40px;
+}
+
+.rent-pay .r4 {
+  padding: 30px;
+}
+
+.rent-pay .r4 b {
+  font-size: 11px;
+  color: #5a5a5a;
+}
+
+.rent-pay .t {
+  font-size: 14px;
+  text-align: left;
+}
+
+.rent-pay .r5 {
+  font-size: 12px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px) {
+  .containerf {
+    width: 100% !important;
+  }
+}
+
+.r6 .g {
+  border: 1px solid #e6e6e6;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+.r6 label {
+  font-size: 13px;
+  color: #5a5a5a;
+}
+
+.r6 input {
+  color: #5a5a5a;
+  font-size: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.r6 input:focus, .r6 input.form-control:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  border: 1px solid #f8189b !important;
+  -webkit-box-shadow: none;
+}
+
+.r6 button {
+  background-color: #ff3bad;
+  color: white;
+  border: none;
+  padding: 7px 20px;
+  font-weight: 500;
+}
+
+.r6 button b {
+  color: white;
+}
+
+.r6 button:hover {
+  background-color: #f8189b;
+}
+
+.r6 select {
+  border: 1px solid #e6e6e6;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80px;
+  color: #5a5a5a;
+  font-size: 13px;
+  padding-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */

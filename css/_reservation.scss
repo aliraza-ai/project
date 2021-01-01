@@ -1,0 +1,108 @@
+.r1
+{
+    border: 2px solid #e7e5e5;
+    margin-top: -10px !important;
+    h2
+    {
+        font-size: 16px;
+        color: #5a5a5a;
+        text-align: center;
+        font-weight: 700;
+    }
+    .sst
+    {
+        b
+        {
+            color: #5a5a5a;
+            font-size: 10px;
+            
+        }
+        margin-bottom: 10px;
+    }
+    .r2,b
+    {
+        color: #5a5a5a;
+        font-size: 12px;
+        
+    }
+    .r3
+    {
+        color: #5a5a5a;
+        font-size: 14px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 10px;
+        text-align: center;
+        button
+    {
+        background-color: $color;
+        color: white;
+        border: none;
+        padding: 7px 20px;
+        font-weight: 500;
+        border-radius: 20px;
+        b
+        {
+            color: white;
+        }
+    }
+    button:hover
+    {
+       background-color: #f8189b;
+    }
+        h1
+        {
+            font-size: 34px;
+            margin-top: 10px;
+        }
+    }
+}
+.r1:hover
+{
+    border: 2px solid #f8189b;
+}
+.car
+{
+    
+    padding: 40px 0px;
+}
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px)
+{
+ 
+    .car
+    {
+    
+    padding: 20px 0px;
+    }
+    .r1
+    {
+        h2
+        {
+            font-size: 12px;
+            
+        }
+       
+    }
+    .r3
+    {
+        font-size: 12px !important;
+        button
+        {
+            padding: 4px 10px !important;
+            margin-top: 50px;
+            
+           b
+           {
+            font-size: 8px !important;
+           }
+            
+        
+        }
+        h1
+        {
+            font-size: 20px !important;
+        }
+    }
+}

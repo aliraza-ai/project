@@ -1,0 +1,61 @@
+.r6
+{
+    .g
+    {
+        border: 1px solid #e6e6e6;
+        padding: 8px 10px;
+        border-radius: 5px;
+    }
+    label
+    {
+        font-size: 13px;
+       
+        color: #5a5a5a;
+    }
+    input
+    {
+        color: #5a5a5a;
+        font-size: 14px;
+        padding-top:8px ;
+        padding-bottom: 8px;
+    }
+    input:focus, input.form-control:focus {
+
+        outline:none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        border: 1px solid#f8189b !important;
+        -webkit-box-shadow: none;
+    }
+
+    button
+    {
+        background-color: $color;
+        color: white;
+        border: none;
+        padding: 7px 20px;
+        font-weight: 500;
+       
+        b
+        {
+            color: white;
+        }
+    }
+    button:hover
+    {
+       background-color: #f8189b;
+    }
+
+    select
+    {
+        border: 1px solid #e6e6e6;
+        padding: 10px;
+        border-radius: 5px;
+        width: 80px;
+        
+        color: #5a5a5a;
+        font-size: 13px;
+        padding-right: 10px;
+    }
+}
