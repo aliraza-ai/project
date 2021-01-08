@@ -644,4 +644,352 @@ body {
   font-size: 13px;
   padding-right: 10px;
 }
+
+.chating .sm {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #5a5a5a;
+  text-align: left;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.chating h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #5a5a5a;
+}
+
+.chating .headerarea {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.chating .input-group-text {
+  background-color: #ff3bad !important;
+  color: white;
+}
+
+.chating input {
+  border: 1px solid #ff3bad;
+  font-size: 14px !important;
+  color: #5a5a5a;
+  padding-left: 60px;
+}
+
+.chating input:focus, .chating input.form-control:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  color: #5a5a5a;
+  -moz-box-shadow: none;
+  border: 1px solid #f8189b !important;
+  -webkit-box-shadow: none;
+}
+
+.chating .p1 {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  border-bottom: 1px solid #ece6e6 !important;
+  line-height: 0.1em;
+  color: #5a5a5a;
+  margin: 10px 0 20px;
+}
+
+.chating .p1 span {
+  background: #fff;
+  color: #afadad;
+  padding: 0 10px;
+}
+
+.chating .iconf {
+  position: absolute;
+  top: 7px;
+  left: 25px;
+}
+
+.chating .ch {
+  position: relative;
+}
+
+.chating #left {
+  background-image: url("../img/cbg2.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  padding: 5px 20px;
+  font-size: 12px;
+}
+
+.chating #rights {
+  background-image: url("../img/cbg1.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  padding: 5px 20px;
+  font-size: 12px;
+}
+
+.f {
+  color: white;
+}
+
+.f h1 {
+  font-size: 18px;
+  color: white;
+}
+
+.f p {
+  font-size: 12px;
+}
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px) {
+  .van {
+    margin-top: 50px !important;
+  }
+}
+
+.contactss h3 {
+  font-size: 15px;
+  color: #5a5a5a;
+  margin-top: 15px;
+}
+
+.contactss .cr1 {
+  text-align: center;
+}
+
+.contactss .cr1 p {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contactss .cp1 {
+  font-size: 13px !important;
+  color: #60c6c6;
+  margin-top: 20px !important;
+  margin-bottom: 30px;
+}
+
+.contactss .cr1:hover {
+  background-color: white;
+  -webkit-box-shadow: 0 0 5px 2px #a7a1a1;
+          box-shadow: 0 0 5px 2px #a7a1a1;
+  border: none;
+}
+
+.contactss h1 {
+  font-size: 20px;
+  color: #5a5a5a;
+}
+
+.contactss p {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #5a5a5a;
+}
+
+.contactss input {
+  color: #5a5a5a;
+  font-size: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.contactss textarea:focus, .contactss input:focus, .contactss input.form-control:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  border: 1px solid #f8189b !important;
+  -webkit-box-shadow: none;
+}
+
+.contactss button {
+  background-color: #ff3bad;
+  color: white;
+  border: none;
+  padding: 7px 30px !important;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.contactss button b {
+  color: white;
+}
+
+.contactss button:hover {
+  background-color: #f8189b;
+  border: none;
+}
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px) {
+  .map {
+    width: 330px !important;
+  }
+}
+
+.pr {
+  margin-top: 50px;
+}
+
+.pr .containerf {
+  background-color: #f3f1f1 !important;
+}
+
+.pr .bg {
+  background-color: white !important;
+  padding: 20px;
+}
+
+.pr h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #5a5a5a;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.pr input {
+  color: #5a5a5a;
+  font-size: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.pr textarea:focus, .pr input:focus, .pr input.form-control:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  border: 1px solid #f8189b !important;
+  -webkit-box-shadow: none;
+}
+
+.pr button {
+  background-color: #ff3bad;
+  color: white;
+  border: none;
+  padding: 7px 30px !important;
+  font-size: 12px;
+  font-weight: 500;
+  height: 40px;
+}
+
+.pr button b {
+  color: white;
+}
+
+.pr button:hover {
+  background-color: #f8189b;
+  border: none;
+}
+
+.pr .rightside img {
+  padding: 20px;
+}
+
+.pr .rightside h3 {
+  color: #5a5a5a;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pr .rightside .rcs1 {
+  font-size: 13px;
+  margin: 0;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 10px;
+  color: #f8189b;
+  border-bottom: 1px solid #e7e5e5;
+}
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px) {
+  .rightside {
+    margin-top: 30px !important;
+  }
+}
+
+.about-us .imgicon {
+  background: url("../img/abouti1.png");
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 80px;
+}
+
+.about-us .imgicon2 {
+  background: url("../img/abouti2.png");
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 80px;
+}
+
+.about-us .imgicon3 {
+  background: url("../img/abouti3.png");
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 80px;
+}
+
+.about-us h3 {
+  position: relative;
+  font-size: 18px;
+  color: #5a5a5a;
+  margin-top: -20px;
+}
+
+.about-us h3:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 2px;
+  background: #60c6c6;
+  left: 0;
+  bottom: -10px;
+  position: absolute;
+}
+
+.about-us h4 {
+  color: #5a5a5a;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.about-us .aboutend {
+  background-image: url("./../img/aboutend.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  color: white;
+}
+
+.about-us .aboutend .col-md-8 {
+  padding-left: 0 !important;
+}
+
+.about-us .aboutend h1, .about-us .aboutend b, .about-us .aboutend span, .about-us .aboutend p {
+  color: white;
+}
+
+.about-us .aboutend button {
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px) {
+  .av {
+    margin-left: 0 !important;
+  }
+}
 /*# sourceMappingURL=style.css.map */

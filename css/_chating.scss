@@ -1,0 +1,114 @@
+.chating
+{
+    .sm
+    {
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        color: #5a5a5a;
+        text-align: left;
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    h1
+    {
+        font-family: 'Roboto', sans-serif;
+        color: #5a5a5a;
+    }
+    .headerarea
+    {
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+    .input-group-text
+    {
+        background-color: #ff3bad !important;
+        color: white;
+    }
+    input
+    {
+        border: 1px solid #ff3bad;
+        font-size: 14px !important;
+        color: #5a5a5a;
+        padding-left: 60px;
+        
+    }
+    input:focus, input.form-control:focus {
+
+        outline:none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        color: #5a5a5a;
+        
+        -moz-box-shadow: none;
+        border: 1px solid#f8189b !important;
+        -webkit-box-shadow: none;
+    }
+
+    .p1 {
+        width: 100%; 
+        text-align: center; 
+        font-size: 12px;
+        border-bottom: 1px solid rgb(236, 230, 230) !important; 
+        line-height: 0.1em;
+        color: #5a5a5a;
+        margin: 10px 0 20px; 
+     } 
+     
+     .p1 span { 
+         background:#fff; 
+         color: #afadad;
+         padding:0 10px; 
+     }
+     .iconf
+     {
+         position: absolute;
+         top: 7px;
+         left: 25px;
+     }
+     .ch
+     {
+         position: relative;
+     }
+     #left
+     {
+        background-image: url("../img/cbg2.png");
+        background-position: center center;
+        background-size: 100% 100%;
+        padding: 5px 20px;
+        font-size: 12px;
+     }
+
+     #rights
+     {
+        background-image: url("../img/cbg1.png");
+        background-position: center center;
+        background-size: 100% 100%;
+        padding: 5px 20px;
+        font-size: 12px;
+     }
+    
+}
+.f
+{
+    color: white;
+    h1
+    {
+        font-size: 18px;
+        color: white;
+    }
+    p
+    {
+        font-size: 12px;
+    }
+}
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px) {
+ 
+    .van
+    {
+        margin-top: 50px !important;
+    }
+
+
+}

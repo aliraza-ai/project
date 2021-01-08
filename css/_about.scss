@@ -1,0 +1,99 @@
+.about-us
+{
+    .imgicon
+    {
+        background: url('../img/abouti1.png');
+       
+        background-repeat: no-repeat;
+        
+        width: 70px;
+        
+        height: 80px;
+    }
+    .imgicon2
+    {
+        background: url('../img/abouti2.png');
+       
+        background-repeat: no-repeat;
+        
+        width: 70px;
+        
+        height: 80px;
+    }
+    .imgicon3
+    {
+        background: url('../img/abouti3.png');
+       
+        background-repeat: no-repeat;
+        
+        width: 70px;
+        
+        height: 80px;
+    }
+
+    h3 
+    {
+        
+        position: relative;
+        font-size: 18px;
+        color: #5a5a5a;
+        margin-top: -20px;
+    }
+
+      h3:after {
+        content: "";
+        display: block;
+        width: 70px;
+        height: 2px;
+        background: #60c6c6;
+        left: 0;
+        bottom: -10px;
+        
+        position: absolute;
+      }
+      h4
+      {
+        color: #5a5a5a;
+        text-align: center;
+        margin-top: 50px;
+      }
+
+
+
+      .aboutend
+      {
+        background-image: url("./../img/aboutend.png");
+        background-position: center center;
+         background-size: 100% 100%;
+         padding: 20px;
+         padding-top: 10px;
+         padding-bottom: 80px;
+         color: white;
+        .col-md-8
+        {
+            padding-left: 0 !important;
+        }
+         h1,b,span,p
+         {
+             color: white;
+         }
+
+         button
+         {
+             border: none;
+             background-color: white;
+             color: black;
+             font-size: 14px;
+             padding:10px 20px;
+         }
+      }
+}
+
+/* Meida Quries Mobiles */
+@media (max-width: 760px) {
+   
+.av
+{
+    margin-left: 0 !important;
+}
+}
